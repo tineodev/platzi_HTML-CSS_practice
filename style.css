@@ -38,7 +38,11 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: #000;
+  color: #202124;
+}
+header nav ul li a:hover {
+  text-decoration: underline solid ;
+  color: #202124;
 }
 
 
@@ -145,27 +149,28 @@ footer {
 footer div.left {
   width: 33%;
 }
+
 footer div a {
   color: #70757a;
   text-decoration: none;
   margin: 0 16px;
-
 }
+footer div a:hover {
+  text-decoration: underline solid;
+}
+
 footer span {
   width: 33%;
   text-align: center;
 }
+footer span img {
+  width: 12px;
+  margin: 0 2px;
+}
+
 footer div.right {
   width: 33%;
   text-align: right;
 }
-
-
-
-
-
-
-
-
 
 
