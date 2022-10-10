@@ -12,18 +12,23 @@ html {
 
 
 header {
-  display: flex;
-  justify-content: flex-end;
-
   height: 5vh;
-  margin: 5px 10px;
+  margin: 5px 16px;
+}
 
+header nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 header nav ul {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+header nav ul.left {
+  font-size: 14px;
 }
 
 header nav ul li {
