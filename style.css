@@ -39,7 +39,7 @@ header nav ul li a {
 
 
 main {
-  height: 88vh;
+  height: 89vh;
   /* background-color: aqua; */
 }
 
@@ -126,25 +126,41 @@ main section.language {
 
 
 
+footer {  
+  display: flex;
+  justify-content:center;
+  align-items: center;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ! Ubicarlo mejor */
-
-section img {
-  width: 270px;
+  background-color: #eff1f4;
+  height: 4.9vh;
+  font-size: 14px;
+  color: #70757a;
 }
+
+footer div.left {
+  width: 33%;
+}
+footer div a {
+  color: #70757a;
+  text-decoration: none;
+  margin: 0 16px;
+
+}
+footer span {
+  width: 33%;
+  text-align: center;
+}
+footer div.right {
+  width: 33%;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
