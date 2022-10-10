@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: flex-end;
 
-  height: 48px;
+  height: 5vh;
   margin: 5px 10px;
 
 }
@@ -39,8 +39,89 @@ header nav ul li a {
 
 
 main {
-  height: 85vh;
-  background-color: aqua;
+  height: 88vh;
+  /* background-color: aqua; */
+}
+
+
+main section.logo {
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+main section.logo img {
+  height: 90px;
+  object-fit: cover;
+}
+
+
+main section.search {
+  height: 140px;
+  padding: 20px;
+  width: 620px;
+  margin: 0 auto;
+}
+
+main section div.search-input {
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  margin: 12px 0;
+  padding: 1px;
+  border-radius: 24px;
+  /* background-color: red; */
+  border: 1px solid #dfe1e5;
+}
+main section div.search-input:hover {
+  /* outline: 1px solid ; */
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+
+}
+
+main section div span {
+  display: flex;
+  align-items: center;
+}
+
+main section div input {
+  width: 85%;
+  margin: 0 10px;
+  outline: none;
+  border: none;
+}
+
+main section div.search-buttons {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+main section div button {
+  height: 36px;
+  margin: 8px;
+  padding: 0 16px;
+  font-size: 14px;
+  color: #3c4043;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+main section div button:hover {
+  border: 1px solid #d3d5d7;
+}
+
+section div span img#icon-search {
+  width: 14px;
+}
+
+section div span img#icon-mic {
+  width: 24px;
+}
+
+main section.language {
+  height: 390px;
 }
 
 
@@ -48,3 +129,22 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ! Ubicarlo mejor */
+
+section img {
+  width: 270px;
+}
